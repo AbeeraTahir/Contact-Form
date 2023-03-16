@@ -295,13 +295,12 @@
         </div>
         <form id="contact_form">
           <label hidden for="full-name"> Full Name </label>
-          <input type="text" name="full-name" id="full-name" placeholder="Full name" required>
+          <input type="text" name="full-name" id="full-name" maxlength="30" placeholder="Full name" required>
           <label hidden for="email"> Email address </label>
-          <input type="text" name="email" id="email" placeholder="Email address" required> 
+          <input type="email" name="email" id="email" placeholder="Email address" required>
           <label hidden for="message"> Message </label>
-          <textarea name="message" id="message"></textarea>
+          <textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea>
           <button type="submit" class="btn-form">Get in touch</button>
-          <!-- <div class="error_msg"></div> -->
         </form>
       </div>
     </main>
