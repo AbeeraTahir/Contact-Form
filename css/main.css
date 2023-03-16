@@ -325,3 +325,49 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 24px 120px 24px;
+}
+
+.form-text-container h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 48px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 114px;
+  background-color: #fbf8f7;
+  border: none;
+  padding: 10px;
+}
+
+.btn-form {
+  color: white;
+  background-color: #ff6b00;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+}
