@@ -72,7 +72,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- Displays some colorful text
+- Displays the contact form.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
